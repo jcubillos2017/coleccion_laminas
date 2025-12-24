@@ -29,6 +29,6 @@ Proyecto final: API REST para gestionar una colección de álbumes y láminas (f
 2. Crear base de datos y usuario (ejemplo):
 
 ```sql
-CREATE DATABASE album_laminas;
-CREATE USER album_user WITH PASSWORD 'album_pass';
-GRANT ALL PRIVILEGES ON DATABASE album_laminas TO album_user;
+CREATE DATABASE coleccion_laminas;
+CREATE USER laminas_user WITH PASSWORD '123456';
+GRANT ALL PRIVILEGES ON DATABASE coleccion_laminas TO laminas_user;
